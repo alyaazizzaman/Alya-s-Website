@@ -1,0 +1,39 @@
+$primaryColor: white;
+$font-stack: 'Work Sans', sans-serif;
+
+body {
+  background: $primaryColor;
+  font: 300% $font-stack;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 2px;
+    font-weight:800;
+  }
+
+  nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      display: inline-block;
+      font: 50% $font-stack;
+      font-weight: 200;
+      color: #7B7B79;
+      padding-left: 40px;
+      padding-right: 40px;
+
+
+     }
+
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+
+}
