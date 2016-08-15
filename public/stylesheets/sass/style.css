@@ -1,0 +1,32 @@
+body {
+  background: white;
+  font: 300% "Work Sans", sans-serif;
+  text-align: center; }
+  body h1 {
+    margin-bottom: 2px;
+    font-weight: 700; }
+  body nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  body nav li {
+    display: inline-block;
+    font: 50% "Work Sans", sans-serif;
+    font-weight: 200;
+    color: #7B7B79;
+    padding: 0;
+    margin: 0; }
+    body nav li a {
+      text-decoration: none;
+      padding-left: 40px;
+      padding-right: 40px; }
+    body nav li a:hover {
+      color: white;
+      background-color: #C1C7C9; }
+    body nav li a:visited {
+      color: #7B7B79; }
+    body nav li a:visited:hover {
+      color: white;
+      background-color: #C1C7C9; }
+
+/*# sourceMappingURL=style.css.map */
